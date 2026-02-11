@@ -29,3 +29,13 @@ body.dark-mode h1 {
     border: none;
     border-radius: 5px;
 }
+
+/* New Animations */
+.fade-in {
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
